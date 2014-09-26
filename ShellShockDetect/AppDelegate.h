@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+-(void) displayVulnerable;
+-(void) displaySafe;
 
 @end
 

@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		3010EA2619D52C0C00E7FFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010EA2519D52C0C00E7FFAE /* main.m */; };
 		3010EA2919D52C0C00E7FFAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010EA2819D52C0C00E7FFAE /* AppDelegate.m */; };
-		3010EA2B19D52C0C00E7FFAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3010EA2A19D52C0C00E7FFAE /* Images.xcassets */; };
 		3010EA2E19D52C0C00E7FFAE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3010EA2C19D52C0C00E7FFAE /* MainMenu.xib */; };
 		3010EA3A19D52C0C00E7FFAE /* ShellShockDetectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010EA3919D52C0C00E7FFAE /* ShellShockDetectTests.m */; };
+		3010EA4419D5424500E7FFAE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3010EA4319D5424500E7FFAE /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,11 +30,11 @@
 		3010EA2519D52C0C00E7FFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3010EA2719D52C0C00E7FFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3010EA2819D52C0C00E7FFAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3010EA2A19D52C0C00E7FFAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3010EA2D19D52C0C00E7FFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3010EA3319D52C0C00E7FFAE /* ShellShockDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShellShockDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3010EA3819D52C0C00E7FFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3010EA3919D52C0C00E7FFAE /* ShellShockDetectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellShockDetectTests.m; sourceTree = "<group>"; };
+		3010EA4319D5424500E7FFAE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			children = (
 				3010EA2719D52C0C00E7FFAE /* AppDelegate.h */,
 				3010EA2819D52C0C00E7FFAE /* AppDelegate.m */,
-				3010EA2A19D52C0C00E7FFAE /* Images.xcassets */,
+				3010EA4319D5424500E7FFAE /* Media.xcassets */,
 				3010EA2C19D52C0C00E7FFAE /* MainMenu.xib */,
 				3010EA2319D52C0C00E7FFAE /* Supporting Files */,
 			);
@@ -191,7 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3010EA2B19D52C0C00E7FFAE /* Images.xcassets in Resources */,
+				3010EA4419D5424500E7FFAE /* Media.xcassets in Resources */,
 				3010EA2E19D52C0C00E7FFAE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +328,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ShellShockDetect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,6 +340,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ShellShockDetect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

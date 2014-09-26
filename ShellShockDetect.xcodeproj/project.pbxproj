@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3010EA2619D52C0C00E7FFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010EA2519D52C0C00E7FFAE /* main.m */; };
+		3010EA2919D52C0C00E7FFAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010EA2819D52C0C00E7FFAE /* AppDelegate.m */; };
+		3010EA2B19D52C0C00E7FFAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3010EA2A19D52C0C00E7FFAE /* Images.xcassets */; };
+		3010EA2E19D52C0C00E7FFAE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3010EA2C19D52C0C00E7FFAE /* MainMenu.xib */; };
+		3010EA3A19D52C0C00E7FFAE /* ShellShockDetectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010EA3919D52C0C00E7FFAE /* ShellShockDetectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3010EA3419D52C0C00E7FFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3010EA1819D52C0C00E7FFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3010EA1F19D52C0C00E7FFAE;
+			remoteInfo = ShellShockDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3010EA2019D52C0C00E7FFAE /* ShellShockDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellShockDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3010EA2419D52C0C00E7FFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3010EA2519D52C0C00E7FFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3010EA2719D52C0C00E7FFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3010EA2819D52C0C00E7FFAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3010EA2A19D52C0C00E7FFAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3010EA2D19D52C0C00E7FFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3010EA3319D52C0C00E7FFAE /* ShellShockDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShellShockDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3010EA3819D52C0C00E7FFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3010EA3919D52C0C00E7FFAE /* ShellShockDetectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellShockDetectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3010EA1D19D52C0C00E7FFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3010EA3019D52C0C00E7FFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3010EA1719D52C0C00E7FFAE = {
+			isa = PBXGroup;
+			children = (
+				3010EA2219D52C0C00E7FFAE /* ShellShockDetect */,
+				3010EA3619D52C0C00E7FFAE /* ShellShockDetectTests */,
+				3010EA2119D52C0C00E7FFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3010EA2119D52C0C00E7FFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3010EA2019D52C0C00E7FFAE /* ShellShockDetect.app */,
+				3010EA3319D52C0C00E7FFAE /* ShellShockDetectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3010EA2219D52C0C00E7FFAE /* ShellShockDetect */ = {
+			isa = PBXGroup;
+			children = (
+				3010EA2719D52C0C00E7FFAE /* AppDelegate.h */,
+				3010EA2819D52C0C00E7FFAE /* AppDelegate.m */,
+				3010EA2A19D52C0C00E7FFAE /* Images.xcassets */,
+				3010EA2C19D52C0C00E7FFAE /* MainMenu.xib */,
+				3010EA2319D52C0C00E7FFAE /* Supporting Files */,
+			);
+			path = ShellShockDetect;
+			sourceTree = "<group>";
+		};
+		3010EA2319D52C0C00E7FFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3010EA2419D52C0C00E7FFAE /* Info.plist */,
+				3010EA2519D52C0C00E7FFAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3010EA3619D52C0C00E7FFAE /* ShellShockDetectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3010EA3919D52C0C00E7FFAE /* ShellShockDetectTests.m */,
+				3010EA3719D52C0C00E7FFAE /* Supporting Files */,
+			);
+			path = ShellShockDetectTests;
+			sourceTree = "<group>";
+		};
+		3010EA3719D52C0C00E7FFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3010EA3819D52C0C00E7FFAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3010EA1F19D52C0C00E7FFAE /* ShellShockDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3010EA3D19D52C0C00E7FFAE /* Build configuration list for PBXNativeTarget "ShellShockDetect" */;
+			buildPhases = (
+				3010EA1C19D52C0C00E7FFAE /* Sources */,
+				3010EA1D19D52C0C00E7FFAE /* Frameworks */,
+				3010EA1E19D52C0C00E7FFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShellShockDetect;
+			productName = ShellShockDetect;
+			productReference = 3010EA2019D52C0C00E7FFAE /* ShellShockDetect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3010EA3219D52C0C00E7FFAE /* ShellShockDetectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3010EA4019D52C0C00E7FFAE /* Build configuration list for PBXNativeTarget "ShellShockDetectTests" */;
+			buildPhases = (
+				3010EA2F19D52C0C00E7FFAE /* Sources */,
+				3010EA3019D52C0C00E7FFAE /* Frameworks */,
+				3010EA3119D52C0C00E7FFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3010EA3519D52C0C00E7FFAE /* PBXTargetDependency */,
+			);
+			name = ShellShockDetectTests;
+			productName = ShellShockDetectTests;
+			productReference = 3010EA3319D52C0C00E7FFAE /* ShellShockDetectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3010EA1819D52C0C00E7FFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ipatrol;
+				TargetAttributes = {
+					3010EA1F19D52C0C00E7FFAE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3010EA3219D52C0C00E7FFAE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3010EA1F19D52C0C00E7FFAE;
+					};
+				};
+			};
+			buildConfigurationList = 3010EA1B19D52C0C00E7FFAE /* Build configuration list for PBXProject "ShellShockDetect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3010EA1719D52C0C00E7FFAE;
+			productRefGroup = 3010EA2119D52C0C00E7FFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3010EA1F19D52C0C00E7FFAE /* ShellShockDetect */,
+				3010EA3219D52C0C00E7FFAE /* ShellShockDetectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3010EA1E19D52C0C00E7FFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3010EA2B19D52C0C00E7FFAE /* Images.xcassets in Resources */,
+				3010EA2E19D52C0C00E7FFAE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3010EA3119D52C0C00E7FFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3010EA1C19D52C0C00E7FFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3010EA2919D52C0C00E7FFAE /* AppDelegate.m in Sources */,
+				3010EA2619D52C0C00E7FFAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3010EA2F19D52C0C00E7FFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3010EA3A19D52C0C00E7FFAE /* ShellShockDetectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3010EA3519D52C0C00E7FFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3010EA1F19D52C0C00E7FFAE /* ShellShockDetect */;
+			targetProxy = 3010EA3419D52C0C00E7FFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3010EA2C19D52C0C00E7FFAE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3010EA2D19D52C0C00E7FFAE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3010EA3B19D52C0C00E7FFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3010EA3C19D52C0C00E7FFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3010EA3E19D52C0C00E7FFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShellShockDetect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3010EA3F19D52C0C00E7FFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShellShockDetect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3010EA4119D52C0C00E7FFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShellShockDetectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShellShockDetect.app/Contents/MacOS/ShellShockDetect";
+			};
+			name = Debug;
+		};
+		3010EA4219D52C0C00E7FFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShellShockDetectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShellShockDetect.app/Contents/MacOS/ShellShockDetect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3010EA1B19D52C0C00E7FFAE /* Build configuration list for PBXProject "ShellShockDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3010EA3B19D52C0C00E7FFAE /* Debug */,
+				3010EA3C19D52C0C00E7FFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3010EA3D19D52C0C00E7FFAE /* Build configuration list for PBXNativeTarget "ShellShockDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3010EA3E19D52C0C00E7FFAE /* Debug */,
+				3010EA3F19D52C0C00E7FFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3010EA4019D52C0C00E7FFAE /* Build configuration list for PBXNativeTarget "ShellShockDetectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3010EA4119D52C0C00E7FFAE /* Debug */,
+				3010EA4219D52C0C00E7FFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3010EA1819D52C0C00E7FFAE /* Project object */;
+}
